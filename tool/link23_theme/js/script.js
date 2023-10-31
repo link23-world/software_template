@@ -1,17 +1,26 @@
 // ---------
 // Variables
 // ---------
-const version = "0.1.8";
-const fullName = "Lost in Translation: Language Toolkit for Genomics Data Diversity";
-const shortName = "Lost in Translation Toolkit";
-const repo = "language-toolkit";
-const zenodo = "10.5281/zenodo.10013320";
+// Current version number
+const version = "0.1.0";
+// Full name of the tool
+const fullName = "<Full name>";
+// Short name of the tool for page titles
+const shortName = "<Short name>";
+// GitHub repository
+const repo = "<repo-name>";
+// Zenodo DOI when you have it
+const zenodo = "<doi_1>/zenodo.<doi_2>";
 
 // ----------------
 // Populate fields
 // ----------------
+$(document).ready(function () {
+  $("#header").load("link23_theme/shared/header.html");
+  $("#footer").load("link23_theme/shared/footer.html");
+});
 
-$(function () {
+$(document).ajaxStop(function () {
   const today = new Date();
   const year = today.getFullYear();
 
