@@ -7,7 +7,7 @@
 
 ## About this repository
 
-If you are creating a tool for link23 then please download the link23 theme folder and put it in the same folder as your tool and include the theme files by adding the following to your `head`:
+If you are creating a tool for link23 then please download the `link23_theme` folder and put it in the same folder as your tool and include the theme files by adding the following to your `head`:
 
 ```html
     <!-- link23 theme -->
@@ -44,4 +44,4 @@ See our [contribution guidelines](/CONTRIBUTING.md) for details about how we cre
 
 The following people (who don't have GitHub accounts) also contributed:
 
-- 
+-
