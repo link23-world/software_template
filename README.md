@@ -1,4 +1,4 @@
-# [Tool Name]
+# link23 theme
 
 [![Static Badge](https://img.shields.io/badge/link23_Tool-In_Development-purple?style=plastic&label=link23%20Tool&color=%23FFB300)](https://link23-world.github.io/theme)
 
@@ -7,6 +7,16 @@
 
 ## About this repository
 
+If you are creating a tool for link23 then please download the link23 theme folder and put it in the same folder as your tool and include the theme files by adding the following to your `head`:
+
+```html
+    <!-- link23 theme -->
+    <link rel="icon" type="image/x-icon" href="link23_theme/img/favicon.ico">
+    <link rel="stylesheet" href="link23_theme/css/link23.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="link23_theme/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="link23_theme/js/script.js"></script>
+```
 
 ## Licensing
 
