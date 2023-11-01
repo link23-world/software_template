@@ -26,7 +26,7 @@ $(document).ajaxStop(function () {
 
   $(".fullname").text(fullName);
   $(".navbar-brand").text(shortName);
-  $(".navbar-brand").attr("href", `/${repo}/index.html`);
+  $(".navbar-brand").attr("href", `/tool/index.html`);
   $(".btn-version").text("v" + version);
   $(".btn-version").attr("href", `https://github.com/link23-world/${repo}/blob/main/NEWS.md`);
   $(".repo").attr("href", `https://github.com/link23-world/${repo}`);
