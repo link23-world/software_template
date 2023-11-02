@@ -20,7 +20,8 @@ There are a few ways you can use this theme:
     <link rel="stylesheet" href="css/stylesheet.css">
 ```
 
-2. Alternatively you can download the full `tool` folder which also includes all HTML page templates.
+2. You can download the full `tool` folder which also includes all HTML page templates.
+3. You can also create a new repository and this one as the template, which will copy all files and folders in this repo.
 
 To apply the theme to your tool please perform the following steps:
 
